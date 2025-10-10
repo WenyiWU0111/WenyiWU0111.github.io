@@ -49,7 +49,7 @@ Develop a foundation that supports GUI-based agents, general multimodal control 
 
 - **Auto-scaling Continuous Memory For GUI Agent**  
   *Wenyi Wu, Kun Zhou, Ruoxin Yuan, Vivian Yu, Stephen Wang, Zhiting Hu, Biwei Huang*
-  **Under review at ICLR 2026**  
+  **Under review**  
   We introduce a **continuous memory** framework for GUI agents, along with an **auto-scaling data flywheel** that autonomously discovers environments, generates tasks, collects trajectories, and performs quality evaluation. Our method achieves state-of-the-art results across multiple real-world GUI benchmarks.
 ![CoMEM Agent Architecture](../images/agent_comem_combined.drawio%20(1).png "Architecture of CoMEM for vision-language reasoning tasks.")  
 <p align="center"><em>Figure: Unified GUI agent system with continuous memory and auto-scaling flywheel.</em></p>
