@@ -125,6 +125,11 @@ Xinyue Wang, Kun Zhou, **Wenyi Wu**, Har Simrat Singh, Fang Nan, Songyao Jin, Ar
 - *2024.09 – 2026.03*, M.S. in Data Science, UC San Diego.
 - *2020.09 – 2024.07*, B.Sc. in Statistics (First Class Honors), The Chinese University of Hong Kong.
 
+# 💻 Internships
+- *Summer 2024*, **Tencent Holdings Limited**, Shenzhen — Data Scientist Intern. Responsible for User Growth data science work in the IEG group; conducted qualitative and quantitative data analysis to investigate differentiated strategies among users.
+- *Summer 2023*, **ByteDance Technology Limited**, Beijing — Data Scientist Intern. Conducted causal inference and machine learning modeling with statistical methods to analyze video and live-stream data and improve business monetization.
+- *Spring 2023*, **HSBC Insurance (Asia) Limited**, Hong Kong — Data Analyst Intern.
+
 # 🐱 Life
 
 Beyond research, I am a devoted cat lover 🐈, and **baking** 🍰 and **crocheting** 🧶 are my favorite *me time*.
