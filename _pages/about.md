@@ -10,12 +10,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an incoming Ph.D. student at the [Halıcıoğlu Data Science Institute (HDSI)](https://datascience.ucsd.edu/), UC San Diego (Fall 2026), where I am fortunate to be advised by Prof. [Biwei Huang](https://biweihuang.com/) and mentored by [Kun Zhou](https://lancelot39.github.io/). Before that, I received my M.S. in Data Science from UC San Diego in March 2026, and my B.Sc. in Statistics (First Class Honors) from The Chinese University of Hong Kong in 2024.
+I am a first-year Ph.D. student at the [Halıcıoğlu Data Science Institute (HDSI)](https://datascience.ucsd.edu/), UC San Diego, where I am fortunate to be advised by Prof. [Biwei Huang](https://biweihuang.com/) and mentored by [Kun Zhou](https://lancelot39.github.io/). Before that, I received my M.S. in Data Science from UC San Diego in March 2026, and my B.Sc. in Statistics (First Class Honors) from The Chinese University of Hong Kong in 2024.
 
 My research aims to make **long-horizon agentic tasks controllable and reliable through a causal lens**, spanning **GUI agents**, **long-horizon planning**, and **multi-agent reinforcement learning**. My work follows one thread:
 
 - **Memory** — equipping agents with scalable *continuous memory*, so that past experience is compactly reusable across unfamiliar interfaces and long horizons ([CoMEM](https://arxiv.org/abs/2505.17670), NeurIPS 2025; [CoMEM-Agent](https://arxiv.org/abs/2510.09038); [HyMEM](https://arxiv.org/abs/2603.10291), ACL 2026 Findings).
-- **Planning** — identifying planning as the dominant factor behind long-horizon performance, and efficiently improving it by training only the planner with reinforcement learning in an unbalanced multi-agent framework ([Planner Matters!](https://arxiv.org/abs/2605.02168)).
+- **Self-Evolving Agent Harnesses** — closed-loop systems for autonomous capability growth, where agents actively acquire experience, verify it through environmental feedback, and reuse validated outcomes to improve artifacts, memory, and subsequent behavior ([RSIAgent](https://arxiv.org/abs/2609.15364); [RSIGame](https://huggingface.co/spaces/RSIGame/rsigame-page)).
 - **Causal structure** — harnessing agents with a unified causal structure that maintains compact, verifiable task progress, enabling evidence-based completion, failure attribution, and recovery ([StructAgent](https://arxiv.org/abs/2607.11388)).
 
 Going forward, I aim to tackle the central challenge of **long-horizon planning** for agents: through **verifiable state management** and **self-evolving memory and tools**, I want agents to truly cross the **sim-to-real** gap — moving beyond benchmarks to deliver real productivity in the wild.
@@ -24,6 +24,7 @@ I am always open to collaborations and happy to chat about agents, causality, an
 
 
 # 🔥 News
+- *2026.09*: &nbsp;📄 Two new works on **recursive self-improvement**: [RSIAgent](https://arxiv.org/abs/2609.15364) — training-free autonomous exploration that lets agents self-improve in new environments (#6 on HF Daily Papers, featured by [机器之心](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ), <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle">); and [RSIGame](https://huggingface.co/spaces/RSIGame/rsigame-page) — autonomous agentic game development with recursive self-improvement. [[Code]](https://github.com/WenyiWU0111/RSIGame)
 - *2026.07*: &nbsp;📄 New preprint: [StructAgent](https://arxiv.org/abs/2607.11388) — harnessing long-horizon digital agents with unified causal structure. [[Project page]](https://wenyiwu0111.github.io/structagent-page/)
 - *2026.07*: &nbsp;🎉🎉 I will join [UC San Diego HDSI](https://datascience.ucsd.edu/) as a Ph.D. student in Fall 2026, advised by Prof. [Biwei Huang](https://biweihuang.com/)!
 - *2026.05*: &nbsp;🎉🎉 [HyMEM](https://arxiv.org/abs/2603.10291) is accepted to **ACL 2026 Findings**!
@@ -35,6 +36,34 @@ I am always open to collaborations and happy to chat about agents, causality, an
 # 📝 Publications 
 
 (⭐️ denotes first author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/rsigame.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](https://huggingface.co/spaces/RSIGame/rsigame-page)
+
+**Wenyi Wu**⭐️, Minghao Fu, Jieyu You, Kun Zhou, Siqi Liu, Aayush Salvi, Yiheng Lin, Ce Zhang, Xiaohan Lan, Jiahui Zhu, Yujie Zhong, Qi She, Biwei Huang
+
+*Preprint, 2026*
+
+[**Project Page**](https://huggingface.co/spaces/RSIGame/rsigame-page) / [**Code**](https://github.com/WenyiWU0111/RSIGame) / [**Dataset**](https://huggingface.co/RSIGame)
+- Turns game generation into autonomous recursive self-improvement: a local explore–diagnose–improve loop with an evolving checklist, plus a global loop that keeps the best checkpoint and detects saturation; verified development experience is then internalized into the generator. Qwen3.8-27B surpasses GPT-5.5 one-shot scores with 11× fewer generation tokens.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/rsiagent.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments](https://arxiv.org/abs/2609.15364)
+
+Sibo Zhu, Shicheng Fan, Xinyue Wang, **Wenyi Wu**, Kun Zhou, Biwei Huang
+
+*arXiv preprint arXiv:2609.15364, 2026*
+
+[**Paper**](https://arxiv.org/abs/2609.15364) / [**Project Page**](https://aetherlabsai.github.io/RSIAgent/) / [**Code**](https://github.com/AetherLabsAI/RSIAgent) <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle"> / [**机器之心**](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ)
+- A training-free multi-agent framework (curriculum, actor, verifier) for recursive self-improvement in new environments: broad-then-deep autonomous exploration builds verified, reusable memory that is frozen and reused at test time. #6 on HF Daily Papers; lets strong open-source models surpass frontier closed models on computer-use benchmarks.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/structagent.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -126,6 +155,7 @@ Xinyue Wang, Kun Zhou, **Wenyi Wu**, Har Simrat Singh, Fang Nan, Songyao Jin, Ar
 - *2020.09 – 2024.07*, B.Sc. in Statistics (First Class Honors), The Chinese University of Hong Kong.
 
 # 💻 Internships
+- *Summer 2026*, **Aether AI**, San Diego — Research Intern. Responsible for developing recursive self-improvement (RSI) systems for agents, as well as data collection and benchmark development for long-horizon robot agents.
 - *Summer 2024*, **Tencent Holdings Limited**, Shenzhen — Data Scientist Intern. Responsible for User Growth data science work in the IEG group; conducted qualitative and quantitative data analysis to investigate differentiated strategies among users.
 - *Summer 2023*, **ByteDance Technology Limited**, Beijing — Data Scientist Intern. Conducted causal inference and machine learning modeling with statistical methods to analyze video and live-stream data and improve business monetization.
 - *Spring 2023*, **HSBC Insurance (Asia) Limited**, Hong Kong — Data Analyst Intern.

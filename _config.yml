@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wenyi Wu"
   avatar           : "images/prof_pic.jpg"
-  bio              : "Incoming Ph.D. student @ UC San Diego HDSI"
+  bio              : "Ph.D. student @ UC San Diego HDSI"
   location         : "San Diego, CA"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=Y6_j1sQAAAAJ&hl=en"
   email            : "wew058@ucsd.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
