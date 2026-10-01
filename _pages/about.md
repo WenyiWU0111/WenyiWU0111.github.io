@@ -15,7 +15,7 @@ I am a first-year Ph.D. student at the [Halıcıoğlu Data Science Institute (HD
 My research aims to make **long-horizon agentic tasks controllable and reliable through a causal lens**, spanning **GUI agents**, **long-horizon planning**, and **multi-agent reinforcement learning**. My work follows one thread:
 
 - **Memory** — equipping agents with scalable *continuous memory*, so that past experience is compactly reusable across unfamiliar interfaces and long horizons ([CoMEM](https://arxiv.org/abs/2505.17670), NeurIPS 2025; [CoMEM-Agent](https://arxiv.org/abs/2510.09038); [HyMEM](https://arxiv.org/abs/2603.10291), ACL 2026 Findings).
-- **Self-Evolving Agent Harnesses** — closed-loop systems for autonomous capability growth, where agents actively acquire experience, verify it through environmental feedback, and reuse validated outcomes to improve artifacts, memory, and subsequent behavior ([RSIAgent](https://arxiv.org/abs/2609.15364); [RSIGame](https://huggingface.co/spaces/RSIGame/rsigame-page)).
+- **Self-Evolving Agent Harnesses** — closed-loop systems for autonomous capability growth, where agents actively acquire experience, verify it through environmental feedback, and reuse validated outcomes to improve artifacts, memory, and subsequent behavior ([RSIAgent](https://arxiv.org/abs/2609.15364); [RSIGame](https://arxiv.org/abs/2609.39045)).
 - **Causal structure** — harnessing agents with a unified causal structure that maintains compact, verifiable task progress, enabling evidence-based completion, failure attribution, and recovery ([StructAgent](https://arxiv.org/abs/2607.11388)).
 
 Going forward, I aim to tackle the central challenge of **long-horizon planning** for agents: through **verifiable state management** and **self-evolving memory and tools**, I want agents to truly cross the **sim-to-real** gap — moving beyond benchmarks to deliver real productivity in the wild.
@@ -24,7 +24,7 @@ I am always open to collaborations and happy to chat about agents, causality, an
 
 
 # 🔥 News
-- *2026.09*: &nbsp;📄 Two new works on **recursive self-improvement**: [RSIAgent](https://arxiv.org/abs/2609.15364) — training-free autonomous exploration that lets agents self-improve in new environments (#6 on HF Daily Papers, featured by [机器之心](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ), <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle">); and [RSIGame](https://huggingface.co/spaces/RSIGame/rsigame-page) — autonomous agentic game development with recursive self-improvement. [[Code]](https://github.com/WenyiWU0111/RSIGame)
+- *2026.09*: &nbsp;📄 Two new works on **recursive self-improvement**: [RSIAgent](https://arxiv.org/abs/2609.15364) — training-free autonomous exploration that lets agents self-improve in new environments (#6 on HF Daily Papers, featured by [机器之心](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ), <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle">); and [RSIGame](https://arxiv.org/abs/2609.39045) — autonomous agentic game development with recursive self-improvement. [[Code]](https://github.com/WenyiWU0111/RSIGame)
 - *2026.07*: &nbsp;📄 New preprint: [StructAgent](https://arxiv.org/abs/2607.11388) — harnessing long-horizon digital agents with unified causal structure. [[Project page]](https://wenyiwu0111.github.io/structagent-page/)
 - *2026.07*: &nbsp;🎉🎉 I will join [UC San Diego HDSI](https://datascience.ucsd.edu/) as a Ph.D. student in Fall 2026, advised by Prof. [Biwei Huang](https://biweihuang.com/)!
 - *2026.05*: &nbsp;🎉🎉 [HyMEM](https://arxiv.org/abs/2603.10291) is accepted to **ACL 2026 Findings**!
@@ -40,13 +40,13 @@ I am always open to collaborations and happy to chat about agents, causality, an
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/rsigame.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](https://huggingface.co/spaces/RSIGame/rsigame-page)
+[RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](https://arxiv.org/abs/2609.39045)
 
 **Wenyi Wu**⭐️, Minghao Fu, Jieyu You, Kun Zhou, Siqi Liu, Aayush Salvi, Yiheng Lin, Ce Zhang, Xiaohan Lan, Jiahui Zhu, Yujie Zhong, Qi She, Biwei Huang
 
-*Preprint, 2026*
+*arXiv preprint arXiv:2609.39045, 2026*
 
-[**Project Page**](https://huggingface.co/spaces/RSIGame/rsigame-page) / [**Code**](https://github.com/WenyiWU0111/RSIGame) / [**Dataset**](https://huggingface.co/RSIGame)
+[**Paper**](https://arxiv.org/abs/2609.39045) / [**Project Page**](https://huggingface.co/spaces/RSIGame/rsigame-page) / [**Code**](https://github.com/WenyiWU0111/RSIGame) / [**Dataset**](https://huggingface.co/RSIGame)
 - Turns game generation into autonomous recursive self-improvement: a local explore–diagnose–improve loop with an evolving checklist, plus a global loop that keeps the best checkpoint and detects saturation; verified development experience is then internalized into the generator. Qwen3.8-27B surpasses GPT-5.5 one-shot scores with 11× fewer generation tokens.
 </div>
 </div>
