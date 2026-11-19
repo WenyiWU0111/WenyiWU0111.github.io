@@ -29,9 +29,7 @@ I am always open to collaborations and happy to chat about agents, causality, an
 - *2026.07*: &nbsp;📄 New preprint: [StructAgent](https://arxiv.org/abs/2607.11388) — harnessing long-horizon digital agents with unified causal structure. [[Project page]](https://wenyiwu0111.github.io/structagent-page/)
 - *2026.07*: &nbsp;🎉🎉 I will join [UC San Diego HDSI](https://datascience.ucsd.edu/) as a Ph.D. student in Fall 2026, advised by Prof. [Biwei Huang](https://biweihuang.com/)!
 - *2026.05*: &nbsp;🎉🎉 [HyMEM](https://arxiv.org/abs/2603.10291) is accepted to **ACL 2026 Findings**!
-- *2026.05*: &nbsp;📄 New preprint: [Planner Matters!](https://arxiv.org/abs/2605.02168) — planning is the dominant factor in long-horizon tasks; RL-training only the planner is enough.
 - *2026.03*: &nbsp;🎓 I graduated with an M.S. in Data Science from UC San Diego.
-- *2025.10*: &nbsp;📄 New preprint: [CoMEM-Agent](https://arxiv.org/abs/2510.09038) — continuous memory + an auto-scaling data flywheel (100k+ trajectories) for GUI agents.
 - *2025.09*: &nbsp;🎉🎉 [CoMEM](https://arxiv.org/abs/2505.17670) is accepted at **NeurIPS 2025**!
 
 # 📝 Publications 
