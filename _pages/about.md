@@ -80,14 +80,14 @@ Sibo Zhu, Shicheng Fan, Xinyue Wang, **Wenyi Wu**, Kun Zhou, Biwei Huang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/planner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/planner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Planner Matters! An Efficient and Unbalanced Multi-agent Collaboration Framework for Long-horizon Planning](https://arxiv.org/abs/2605.02168)
 
 **Wenyi Wu**⭐️, Sibo Zhu, Kun Zhou, Biwei Huang
 
-*arXiv preprint arXiv:2605.02168, 2026 (under review)*
+*arXiv preprint arXiv:2605.02168, 2026*
 
 [**Paper**](https://arxiv.org/abs/2605.02168) / [**Code**](https://github.com/WenyiWU0111/Planner-Matters-GUI-Agent)
 - Decomposes long-horizon automation into planner / actor / memory-manager roles and shows planning is the dominant factor in task performance — so we RL-train *only* the planner, yielding efficient gains across web navigation, OS control, and tool use.
@@ -108,14 +108,14 @@ Sibo Zhu, **Wenyi Wu**, Kun Zhou, Stephen Wang, Biwei Huang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/comem_agent.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/comem_agent.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Auto-scaling Continuous Memory for GUI Agent](https://arxiv.org/abs/2510.09038)
 
 **Wenyi Wu**⭐️, Kun Zhou, Ruoxin Yuan, Vivian Yu, Stephen Wang, Zhiting Hu, Biwei Huang
 
-*arXiv preprint arXiv:2510.09038, 2025 (under review)*
+*arXiv preprint arXiv:2510.09038, 2025*
 
 [**Paper**](https://arxiv.org/abs/2510.09038) / [**Code**](https://github.com/WenyiWU0111/CoMEM-Agent) / [**Dataset**](https://huggingface.co/datasets/WenyiWU0111/CoMEM-agent-memory-trajectories)
 - Encodes each GUI trajectory into fixed-length continuous embeddings (the VLM as its own encoder), sharply cutting context cost while preserving fine-grained visual cues; an auto-scaling data flywheel collects 100k+ trajectories, bringing Qwen2.5-VL-7B to the level of closed-source SOTA agents.
