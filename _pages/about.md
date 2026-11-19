@@ -16,7 +16,7 @@ My research aims to make **long-horizon agentic tasks controllable and reliable 
 
 - **Memory** — equipping agents with scalable *continuous memory*, so that past experience is compactly reusable across unfamiliar interfaces and long horizons ([CoMEM](https://arxiv.org/abs/2505.17670), NeurIPS 2025; [CoMEM-Agent](https://arxiv.org/abs/2510.09038); [HyMEM](https://arxiv.org/abs/2603.10291), ACL 2026 Findings).
 - **Self-Evolving Agent Harnesses** — closed-loop systems for autonomous capability growth, where agents actively acquire experience, verify it through environmental feedback, and reuse validated outcomes to improve artifacts, memory, and subsequent behavior ([RSIAgent](https://arxiv.org/abs/2609.15364); [RSIGame](https://arxiv.org/abs/2609.39045)).
-- **Causal structure** — harnessing agents with a unified causal structure that maintains compact, verifiable task progress, enabling evidence-based completion, failure attribution, and recovery ([StructAgent](https://arxiv.org/abs/2607.11388)).
+- **Causal structure** — harnessing agents with a unified causal structure that maintains compact, verifiable task progress, enabling evidence-based completion, failure attribution, and recovery ([StructAgent](https://arxiv.org/abs/2607.11388), KDD 2027).
 
 Going forward, I aim to tackle the central challenge of **long-horizon planning** for agents: through **verifiable state management** and **self-evolving memory and tools**, I want agents to truly cross the **sim-to-real** gap — moving beyond benchmarks to deliver real productivity in the wild.
 
@@ -24,6 +24,7 @@ I am always open to collaborations and happy to chat about agents, causality, an
 
 
 # 🔥 News
+- *2026.11*: &nbsp;🎉🎉 [StructAgent](https://arxiv.org/abs/2607.11388) is accepted to **KDD 2027**!
 - *2026.09*: &nbsp;📄 Two new works on **recursive self-improvement**: [RSIAgent](https://arxiv.org/abs/2609.15364) — training-free autonomous exploration that lets agents self-improve in new environments (#6 on HF Daily Papers, featured by [机器之心](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ), <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle">); and [RSIGame](https://arxiv.org/abs/2609.39045) — autonomous agentic game development with recursive self-improvement (#10 on HF Daily Papers, <a href="https://huggingface.co/papers/2609.39045"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2609.39045&query=%24.upvotes&label=Upvotes&logo=huggingface&logoColor=FFD21E&style=social&cacheSeconds=1800" alt="HF Daily Papers upvotes" style="vertical-align:middle"></a> <img src="https://img.shields.io/github/stars/WenyiWU0111/RSIGame?style=social" alt="GitHub stars" style="vertical-align:middle">). [[Code]](https://github.com/WenyiWU0111/RSIGame)
 - *2026.07*: &nbsp;📄 New preprint: [StructAgent](https://arxiv.org/abs/2607.11388) — harnessing long-horizon digital agents with unified causal structure. [[Project page]](https://wenyiwu0111.github.io/structagent-page/)
 - *2026.07*: &nbsp;🎉🎉 I will join [UC San Diego HDSI](https://datascience.ucsd.edu/) as a Ph.D. student in Fall 2026, advised by Prof. [Biwei Huang](https://biweihuang.com/)!
@@ -65,14 +66,14 @@ Sibo Zhu, Shicheng Fan, Xinyue Wang, **Wenyi Wu**, Kun Zhou, Biwei Huang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/structagent.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2027</div><img src='images/papers/structagent.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure](https://arxiv.org/abs/2607.11388)
 
 **Wenyi Wu**⭐️, Sibo Zhu, Kun Zhou, Aayush Salvi, Zixuan Song, Biwei Huang
 
-*arXiv preprint arXiv:2607.11388, 2026*
+*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2027*
 
 [**Paper**](https://arxiv.org/abs/2607.11388) / [**Project Page**](https://wenyiwu0111.github.io/structagent-page/) / [**Code**](https://github.com/WenyiWU0111/StructAgent)
 - A unified causal structure for long-horizon digital agents: a compact, verifiable task-progress state coupled with structured workflows, enabling checkpointing, evidence-based completion, and failure recovery. Improves multiple backbones on computer-use benchmarks and generalizes to Minecraft.
