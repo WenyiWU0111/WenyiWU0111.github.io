@@ -24,6 +24,7 @@ I am always open to collaborations and happy to chat about agents, causality, an
 
 
 # 🔥 News
+- *2026.11*: &nbsp;📄 New preprint: [GameAnything](https://arxiv.org/abs/2611.29238) — an open-source agentic platform that turns multimodal inspirations (text, images, videos) into playable extensions of existing games, together with **GameAnything-Bench**, a benchmark of 205 tasks across 14 games. [[Project page]](https://huggingface.co/spaces/GameAnything/GameAnything) [[Code]](https://github.com/AetherLabsAI/GameAnything) [[Benchmark]](https://github.com/AetherLabsAI/GameAnything-Bench)
 - *2026.11*: &nbsp;🎉🎉 [StructAgent](https://arxiv.org/abs/2607.11388) is accepted to **KDD 2027**!
 - *2026.09*: &nbsp;📄 Two new works on **recursive self-improvement**: [RSIAgent](https://arxiv.org/abs/2609.15364) — training-free autonomous exploration that lets agents self-improve in new environments (#6 on HF Daily Papers, featured by [机器之心](https://mp.weixin.qq.com/s/bg0tkvHsKTZ88uBNKUdVTQ), <img src="https://img.shields.io/github/stars/AetherLabsAI/RSIAgent?style=social" alt="GitHub stars" style="vertical-align:middle">); and [RSIGame](https://arxiv.org/abs/2609.39045) — autonomous agentic game development with recursive self-improvement (#10 on HF Daily Papers, <img src="https://img.shields.io/github/stars/WenyiWU0111/RSIGame?style=social" alt="GitHub stars" style="vertical-align:middle">). [[Code]](https://github.com/WenyiWU0111/RSIGame)
 - *2026.07*: &nbsp;📄 New preprint: [StructAgent](https://arxiv.org/abs/2607.11388) — harnessing long-horizon digital agents with unified causal structure. [[Project page]](https://wenyiwu0111.github.io/structagent-page/)
@@ -35,6 +36,20 @@ I am always open to collaborations and happy to chat about agents, causality, an
 # 📝 Publications 
 
 (⭐️ denotes first author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/gameanything.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GameAnything: From Any Inspirations to Playable Game Worlds](https://arxiv.org/abs/2611.29238)
+
+**Wenyi Wu**⭐️, Siqi Liu, Yuru Feng, Zixuan Song, Aayush Salvi, Sibo Zhu, Kun Zhou, Biwei Huang
+
+*arXiv preprint arXiv:2611.29238, 2026*
+
+[**Paper**](https://arxiv.org/abs/2611.29238) / [**Project Page**](https://huggingface.co/spaces/GameAnything/GameAnything) / [**Code**](https://github.com/AetherLabsAI/GameAnything) / [**Benchmark**](https://github.com/AetherLabsAI/GameAnything-Bench) / [**Dataset**](https://huggingface.co/datasets/GameAnything/GameAnything-Bench)
+- An open-source agentic platform that turns text, images and videos into playable extensions of existing games: coding agents work with an independent playtesting critic, persistent development state and reusable experience memory. GameAnything-Bench (205 tasks, 14 games, 4 reference modalities) playtests both functionality and gameplay quality; across nine coding-agent configurations, agents adapt reference content well but still struggle with playable interactions and precise modifications.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/rsigame.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
